@@ -27,7 +27,7 @@ const CountDown = () => {
   }, []);
 
   return (
-    <div>
+    <div className='flex flex-row'>
    
                     <span class="timer-box px-6 py-6"> {countdown.minutes.toString().padStart(2, '0')}</span>
                     <span class="timer-divider mx-2">:</span>

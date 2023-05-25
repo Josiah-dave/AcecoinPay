@@ -21,12 +21,12 @@ const App = () => {
     </div>
     <div class="col-span-12 md:col-span-8">
         <div class="form">
-            <header class="form-header flex-col flex">
-                <div class="logo">
+            <header class="form-header flex flex-col md:flex-row justify-between">
+                <div class="logo mr-auto">
                     <span class="logo-circle"></span>
                     <h1>AceCoin<span class="lean">Pay</span></h1>
                 </div>
-                <div class="timer">
+                <div class="timer my-2">
 
                   <CountDown/>
             
@@ -34,7 +34,7 @@ const App = () => {
             </header>
             <section class="form-body">
                 <form action="">
-                    <div class="input-group">
+                    <div class="input-group ">
                         <div class="header">
                             <div class="description">
                                 <h2 class="title">card number</h2>
@@ -66,7 +66,7 @@ const App = () => {
                             <img src={img6} alt="" class="trailing-icon"/>
                         </div>
                     </div>
-                    <div class="input-group __col">
+                    <div class="input-group __col  flex flex-col">
                         <div class="header">
                             <div class="description">
                                 <h2 class="title">CVV number</h2>
