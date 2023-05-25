@@ -177,12 +177,7 @@
   .form-body form .input-group.__col .main {
     /* border: 2px solid rgba(224, 224, 224, 0.5); */
     max-width: 100%;
-    /* padding: 1em 4em 1em 4em;
-    font-size: 1.2em;
-    font-weight: 600;
-    border-radius: 6px;
-    background: linear-gradient(45deg, #f5f8ff, transparent);
-    color: #05365c; */
+
   }
 
   .form-body form .input-group.__col .main.__date {
@@ -195,6 +190,10 @@
     flex-direction: initial;
     max-width: 100%;
     position: relative;
+  }
+
+  .form {
+    padding-right: 0;
   }
 }
 
